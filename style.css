@@ -81,10 +81,10 @@
 
 
 
-@media screen and (max-width: 996px) {
+@media screen and (max-width: 900px) {
     .section_wrapper .row {
-    display: flex;
-    flex-direction: column-reverse;
+       display: flex;
+       flex-direction: column-reverse;
     }
 
     .section_wrapper button{
