@@ -1,0 +1,106 @@
+
+/*      Navbar     */
+.foss{
+    background: linear-gradient(to right, #20605a,#1fa99c);
+    color: #fff;
+    height: 500px;
+    width: 500px;
+}
+
+.foss p{
+    margin-top: 200px;
+}
+
+.section_wrapper .card{
+    border: none;
+}
+
+.touche button{
+    width: 200px;
+    border-radius: 10px;
+}
+
+/*         Programmes                 */
+
+.mes{
+    background: #009688;
+    border-radius: 10px;
+    color: #fff;
+    padding-bottom: 50px;
+}
+
+.pragrammes_wrapper .card{
+    border: 1px solid #009688;
+}
+
+/*            Cours               */
+
+.card-header{
+    background: transparent;
+    border: none;
+}
+
+/*          Diplome         */
+
+.diplome_wrapper .container-fluid{
+    background-color: #f44336;
+    height: 600px;
+}
+
+/*            Contact              */
+
+.contact_wrapper .pagination{
+    width: 20px;
+    height: 20px;
+    background-color: rgb(198, 198, 198);
+    border-radius: 10px;
+    
+}
+
+.contact_wrapper li{
+    list-style: none;
+}
+
+.pagination:hover{
+    background-color: gray;
+}
+
+/*      partenaire       */
+
+.partenaire_wrapper .card{
+    box-shadow: 5px 5px 5px gray;
+}
+
+/*             Footer                  */
+
+.footer_wrapper a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+
+@media screen and (max-width: 996px) {
+    .section_wrapper .row {
+    display: flex;
+    flex-direction: column-reverse;
+    }
+
+    .section_wrapper button{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .touche{
+        margin-left: 50px;
+    }
+
+    .grd{
+        display: flex;
+        flex-direction: column;
+    }
+}
